@@ -20,7 +20,7 @@
 ## Installation
 Clonez ou téléchargez le repository GitHub dans le dossier voulu :
 
-    https://github.com/eddesscv/P8-OC-ToDoList.git
+    https://github.com/eddesscv/P8-TodoList.git
 Configurez vos variables d'environnement telles que la connexion à la base de données .env.
 
 Téléchargez et installez les dépendances back-end du projet avec [Composer](https://getcomposer.org/download/) :
