@@ -35,4 +35,4 @@ Créer la base de données si elle n'existe pas déjà, taper la commande ci-des
 
 Créez les fixtures vous permettant de tester :
 
-    php bin/console doctrine:fixtures:loads
+    php bin/console doctrine:fixtures:load
