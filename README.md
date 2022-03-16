@@ -5,6 +5,8 @@
 [Améliorez une application existante de ToDo &amp; Co](https://openclassrooms.com/projects/ameliorer-un-projet-existant-1)
 
 [![SymfonyInsight](https://insight.symfony.com/projects/58d88bf9-9db3-4f3e-ab42-eedb384ff658/big.svg)](https://insight.symfony.com/projects/58d88bf9-9db3-4f3e-ab42-eedb384ff658/analyses/25)
+[![Code Climate](https://codeclimate.com/github/eddesscv/P8-OC-ToDoList.png)](https://codeclimate.com/github/eddesscv/P8-OC-ToDoList)
+[![Build Status](https://app.travis-ci.com/eddesscv/P8-OC-ToDoList.svg?branch=master)](https://app.travis-ci.com/eddesscv/P8-OC-ToDoList.svg?branch=master)
 
 ## Environnement de développement
 
