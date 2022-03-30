@@ -1,7 +1,10 @@
-# P8-OC-ToDoList!
+ToDoList
+========
 
-![Sans titre](https://user-images.githubusercontent.com/50627300/158421723-ae54c81e-22e1-4415-ae9f-39f878411a3f.png)
+Base du projet #8 : Améliorez un projet existant
 
+https://openclassrooms.com/projects/ameliorer-un-projet-existant-1
+=======
 [Améliorez une application existante de ToDo &amp; Co](https://openclassrooms.com/projects/ameliorer-un-projet-existant-1)
 
 [![SymfonyInsight](https://insight.symfony.com/projects/58d88bf9-9db3-4f3e-ab42-eedb384ff658/big.svg)](https://insight.symfony.com/projects/58d88bf9-9db3-4f3e-ab42-eedb384ff658/analyses/25)
