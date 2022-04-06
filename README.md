@@ -11,7 +11,8 @@ Base du projet #8 : Améliorez un projet existant
 ## Environnement de développement
 - Symfony 5.2.2
 - Composer 2.2.5
-- ...
+- PHPUnit 9.5.20
+    - php-code-coverage 9.2.15
 - WampServer 3.1.6
     - Apache 2.4.51
     - PHP 7.4.26
