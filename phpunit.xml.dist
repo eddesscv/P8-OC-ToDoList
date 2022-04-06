@@ -7,6 +7,15 @@
          colors="true"
          bootstrap="tests/bootstrap.php"
 >
+    <coverage processUncoveredFiles="true">
+      <include>
+        <directory suffix=".php">src</directory>
+      </include>
+      <report>
+        <html outputDirectory="build/coverage"/>
+        <text outputFile="build/coverage.txt"/>
+      </report>
+    </coverage>
     <php>
         <ini name="display_errors" value="1" />
         <ini name="error_reporting" value="-1" />
@@ -20,11 +29,11 @@
         </testsuite>
     </testsuites>
 
-    <filter>
+    <!-- <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory suffix=".php">src</directory>
         </whitelist>
-    </filter>
+    </filter> -->
 
     <listeners>
         <listener class="Symfony\Bridge\PhpUnit\SymfonyTestsListener" />
