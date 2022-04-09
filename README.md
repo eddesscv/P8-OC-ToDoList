@@ -35,3 +35,22 @@ Créer la base de données si elle n'existe pas déjà, taper la commande ci-des
 Créez les fixtures vous permettant de tester :
 
     php bin/console doctrine:fixtures:load
+
+## Lancer le projet
+    symfony server:start
+
+## Authentication
+
+Après avoir lancé les fixtures, vous pouvez utiliser les comptes suivants
+
+- username: admin
+- password: admin
+
+ou
+
+- username: user
+- password: user
+
+Les tasks dejà créés sont rattachées à un utilisateur “anonyme”. Vous pouvez créér nouvelles tâches après le login
+
+
