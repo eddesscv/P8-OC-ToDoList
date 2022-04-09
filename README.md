@@ -53,4 +53,7 @@ ou
 
 Les tasks dejà créés sont rattachées à un utilisateur “anonyme”. Vous pouvez créer nouvelles tâches après le login
 
+ ## Tests
+    php bin/phpunit ou vendor/bin/phpunit
+
 
