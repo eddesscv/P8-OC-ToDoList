@@ -51,6 +51,6 @@ ou
 - username: user
 - password: user
 
-Les tasks dejà créés sont rattachées à un utilisateur “anonyme”. Vous pouvez créér nouvelles tâches après le login
+Les tasks dejà créés sont rattachées à un utilisateur “anonyme”. Vous pouvez créer nouvelles tâches après le login
 
 
