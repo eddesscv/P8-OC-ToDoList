@@ -41,7 +41,7 @@ Créez les fixtures vous permettant de tester :
 
 ## Authentication
 
-Après avoir lancé les fixtures, vous pouvez utiliser les comptes suivants
+Après avoir lancé les fixtures, vous pouvez utiliser les comptes suivants pour faire le login :
 
 - username: admin
 - password: admin
