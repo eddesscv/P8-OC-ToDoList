@@ -11,13 +11,19 @@
 		<div class="mb-2">
 			<ul class="nav nav-tabs" id="myTab">
 				<li class="nav-item">
-					<a class="nav-link" aria-current="page" href="{{ path('task_list') }}">Toutes les tâches</a>
+					<a class="nav-link" aria-current="page" href="{{ path('task_list') }}">
+						<i class="bi bi-list-task"></i>
+						Toutes les tâches</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{ path('task_list_to_do') }}">À faire</a>
+					<a class="nav-link" href="{{ path('task_list_to_do') }}">
+						<i class="bi bi-check"></i>
+						À faire</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{ path('task_list_done') }}">Terminées</a>
+					<a class="nav-link" href="{{ path('task_list_done') }}">
+						<i class="bi bi-check-all"></i>
+						Terminées</a>
 				</li>
 			</ul>
 		</div>
