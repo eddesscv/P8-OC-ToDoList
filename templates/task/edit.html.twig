@@ -7,7 +7,8 @@
 
 		<p class="py-5">
 			<a href="{{ path('task_create') }}" class="btn btn-outline-success btn-block mb-3">Créer une nouvelle tâche</a>
-			<a href="" class="btn btn-outline-info btn-block mb-3">Consulter la liste des tâches à faire</a>
+			<a href="{{ path('task_list_to_do') }}" class="btn btn-outline-info btn-block mb-3">Consulter la liste des tâches à faire</a>
+			<a href="{{ path('task_list_done') }}" class="btn btn-outline-info btn-block mb-3">Consulter la liste des tâches terminées</a>
 			<a href="{{ path('task_list') }}" class="btn btn-outline-info btn-block mb-3">Consulter la liste des tâches terminées</a>
 		</p>
 	</div>

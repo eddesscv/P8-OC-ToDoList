@@ -20,6 +20,22 @@ class TaskController extends AbstractController
     }
 
     /**
+     * @Route("/tasks/todo", name="task_list_to_do")
+     */
+    public function listTaskToDo()
+    {
+        return $this->render('task/list.html.twig', ['tasks' => $this->getDoctrine()->getRepository(Task::class)->findBy(['isDone' => 0])]);
+    }
+
+    /**
+     * @Route("/tasks/done", name="task_list_done")
+     */
+    public function listTaskDone()
+    {
+        return $this->render('task/list.html.twig', ['tasks' => $this->getDoctrine()->getRepository(Task::class)->findBy(['isDone' => 1])]);
+    }
+
+    /**
      * @Route("/tasks/create", name="task_create")
      */
     public function createAction(Request $request, Security $security)
