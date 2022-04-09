@@ -23,8 +23,9 @@
 						<div class="dropdown-divider"></div>
 					{% endif %}
 					<a class="dropdown-item" href="{{ path('task_create') }}">Créer une tâche</a>
-					<a class="dropdown-item" href="{{ path('task_list') }}">Liste des tâches à faire</a>
-					<a class="dropdown-item" href="{{ path('task_list') }}">Liste des tâches terminées</a>
+					<a class="dropdown-item" href="{{ path('task_list_to_do') }}">Liste des tâches à faire</a>
+					<a class="dropdown-item" href="{{ path('task_list_done') }}">Liste des tâches terminées</a>
+					<a class="dropdown-item" href="{{ path('task_list') }}">Toutes les tâches</a>
 					<div class="dropdown-divider"></div>
 					<a class="dropdown-item" href="{{ path('logout') }}">Se déconnecter</a>
 				</div>
