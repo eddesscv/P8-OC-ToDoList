@@ -1,12 +1,11 @@
 <?php
 
-namespace App\Tests;
+namespace App\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class DefaultControllerTest extends WebTestCase
 {
-
     public function testIndexActionWithoutLogin()
     {
         // If the user isn't logged, should redirect to the login page
