@@ -51,6 +51,8 @@ ou
 - username: user
 - password: user
 
+Pour créer un nouvel user, faire login avec admin.
+
 Les tasks dejà créés sont rattachées à un utilisateur “anonyme”. Vous pouvez créer nouvelles tâches après le login
 
  ## Tests
