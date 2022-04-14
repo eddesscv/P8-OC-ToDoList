@@ -11,11 +11,12 @@ class DefaultControllerTest extends WebTestCase
         // If the user isn't logged, should redirect to the login page
         $client = static::createClient();
         $client->request('GET', '/');
-        static::assertSame(302, $client->getResponse()->getStatusCode());
+        $this->assertSame(302, $client->getResponse()->getStatusCode());
 
         $crawler = $client->followRedirect();
         // Test if login field exists
-        static::assertSame(1, $crawler->filter('input[name="_username"]')->count());
-        static::assertSame(1, $crawler->filter('input[name="_password"]')->count());
+        $this->assertSame(1, $crawler->filter('input[name="_username"]')->count());
+        $this->assertSame(1, $crawler->filter('input[name="_password"]')->count());
+        $this->assertSame(1, $crawler->filter('input[name="_csrf_token"]')->count());
     }
 }
