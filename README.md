@@ -57,5 +57,13 @@ Les tasks dejà créés sont rattachées à un utilisateur “anonyme”. Vous p
 
  ## Tests
     php bin/phpunit ou vendor/bin/phpunit
+    
+## Génération du rapport de couverture de code :
+    vendor/bin/phpunit --coverage-html build/test-coverage
+
+## Pour tester une unité individuelle (example: testIndexWithLogin)
+    vendor/bin/phpunit --filter=testIndexWithLogin
+    ou
+    vendor/bin/phpunit tests/Controller/DefaultControllerTest.php --filter=testIndexWithLogin
 
 
