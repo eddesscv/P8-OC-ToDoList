@@ -152,7 +152,7 @@ class TaskControllerTest extends WebTestCase
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 
-    /* public function testDeleteTaskActionByUser()
+    public function testDeleteTaskActionByUser()
     {
         $client = static::createClient();
         $userRepository = static::getContainer()->get(UserRepository::class);
@@ -172,9 +172,9 @@ class TaskControllerTest extends WebTestCase
         $crawler = $client->followRedirect();
         $this->assertEquals('task_list', $client->getRequest()->get('_route'));
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
-    } */
+    }
 
-    /* public function testDeleteTaskActionForAnonymous()
+    public function testDeleteTaskActionForAnonymous()
     {
         $client = static::createClient();
         $userRepository = static::getContainer()->get(UserRepository::class);
@@ -194,5 +194,5 @@ class TaskControllerTest extends WebTestCase
         $crawler = $client->followRedirect();
         $this->assertEquals('task_list', $client->getRequest()->get('_route'));
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
-    } */
+    }
 }
