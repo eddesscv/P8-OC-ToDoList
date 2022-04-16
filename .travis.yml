@@ -13,4 +13,4 @@ env:
   - DB=mysql
 
 before_install:
-  - mysql -e 'CREATE DATABASE todolist-p8-oc;'
+  - mysql -e 'CREATE DATABASE;'
