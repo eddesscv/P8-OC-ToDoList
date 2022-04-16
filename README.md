@@ -6,6 +6,7 @@ Base du projet #8 : Améliorez un projet existant
 
 [Améliorez une application existante de ToDo &amp; Co](https://openclassrooms.com/projects/ameliorer-un-projet-existant-1)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/eec6c526ddd94b3396d2f9f257a9be85)](https://app.codacy.com/gh/eddesscv/P8-OC-ToDoList?utm_source=github.com&utm_medium=referral&utm_content=eddesscv/P8-OC-ToDoList&utm_campaign=Badge_Grade_Settings)
 [![SymfonyInsight](https://insight.symfony.com/projects/862a5310-cb7c-4ada-9ca9-660d86855bc6/mini.svg)](https://insight.symfony.com/projects/862a5310-cb7c-4ada-9ca9-660d86855bc6/analyses/56)
 <a href="https://codeclimate.com/github/eddesscv/P8-OC-ToDoList/maintainability"><img src="https://api.codeclimate.com/v1/badges/4857ec576b6574978d9a/maintainability" /></a>
 <a href="https://codeclimate.com/github/eddesscv/P8-OC-ToDoList/test_coverage"><img src="https://api.codeclimate.com/v1/badges/4857ec576b6574978d9a/test_coverage" /></a>
