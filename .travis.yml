@@ -6,3 +6,12 @@ script:
   - composer install
   - vendor/bin/phpunit
 
+
+services:
+  - mysql
+
+env:
+  - DB=mysql
+
+before_install:
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS test;'
