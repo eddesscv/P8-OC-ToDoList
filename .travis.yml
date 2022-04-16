@@ -1,26 +1,7 @@
-# language: php
-# php:
-#   - "7.4"
-
-# script:
-#   - composer install
-#   - vendor/bin/phpunit
-
-
-# services:
-#   - mysql
-
-# env:
-#   - DB=mysql
-  
-# before_script:
-#   - cp .env.travis .env
-#   - mysql -e 'CREATE DATABASE IF NOT EXISTS travis-test;'
-
 language: php
 
 php:
-  - 7.3
+  - 7.4
 
 services:
   - mysql
