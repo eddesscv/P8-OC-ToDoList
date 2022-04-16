@@ -69,4 +69,5 @@ Les tasks dejà créés sont rattachées à un utilisateur “anonyme”. Vous p
     ou
     vendor/bin/phpunit tests/Controller/DefaultControllerTest.php --filter=testIndexWithLogin
 
+L’ensemble des fichiers HTML générés par PHPUnit indiquant le niveau de code coverage de l’application (75 %) est dans le dossier: **/build**
 
