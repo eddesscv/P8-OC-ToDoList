@@ -15,6 +15,4 @@ env:
   
 before_script:
   - cp .env.travis .env
-  - bin/console doctrine:database:create
-  - bin/console doctrine:schema:create
-  - bin/console doctrine:fixtures:load -n
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS test;'
