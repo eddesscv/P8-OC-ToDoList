@@ -1,19 +1,16 @@
 language: php
-
 php:
-  - 7.4
+  - "7.4"
+
+script:
+  - composer install
+  - vendor/bin/phpunit
 
 services:
   - mysql
 
-install:
-  - composer install
+env:
+  - DB=mysql
 
-before_script:
-  - cp .env.travis .env
-  - bin/console doctrine:database:create
-  - bin/console doctrine:schema:create
-  - bin/console doctrine:fixtures:load -n
-
-script:
-  - bin/phpunit
+before_install:
+  - mysql -e 'CREATE DATABASE myapp_test;'
