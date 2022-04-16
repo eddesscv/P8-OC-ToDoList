@@ -12,6 +12,9 @@ services:
 
 env:
   - DB=mysql
-
-before_install:
-  - mysql -e 'CREATE DATABASE IF NOT EXISTS todolist-p8-oc;'
+  
+before_script:
+  - cp .env.travis .env
+  - bin/console doctrine:database:create
+  - bin/console doctrine:schema:create
+  - bin/console doctrine:fixtures:load -n
