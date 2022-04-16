@@ -8,3 +8,6 @@ script:
 
 services:
   - mysql
+
+env:
+  - DB=mysql
