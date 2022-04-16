@@ -7,6 +7,8 @@ Base du projet #8 : Améliorez un projet existant
 [Améliorez une application existante de ToDo &amp; Co](https://openclassrooms.com/projects/ameliorer-un-projet-existant-1)
 
 [![SymfonyInsight](https://insight.symfony.com/projects/58d88bf9-9db3-4f3e-ab42-eedb384ff658/big.svg)](https://insight.symfony.com/projects/58d88bf9-9db3-4f3e-ab42-eedb384ff658/analyses/25)
+<a href="https://codeclimate.com/github/eddesscv/P8-OC-ToDoList/maintainability"><img src="https://api.codeclimate.com/v1/badges/4857ec576b6574978d9a/maintainability" /></a>
+<a href="https://codeclimate.com/github/eddesscv/P8-OC-ToDoList/test_coverage"><img src="https://api.codeclimate.com/v1/badges/4857ec576b6574978d9a/test_coverage" /></a>
 
 ## Environnement de développement
 - Symfony 5.2.2
@@ -57,5 +59,13 @@ Les tasks dejà créés sont rattachées à un utilisateur “anonyme”. Vous p
 
  ## Tests
     php bin/phpunit ou vendor/bin/phpunit
+    
+## Génération du rapport de couverture de code :
+    vendor/bin/phpunit --coverage-html build/test-coverage
+
+## Pour tester une unité individuelle (example: testIndexWithLogin)
+    vendor/bin/phpunit --filter=testIndexWithLogin
+    ou
+    vendor/bin/phpunit tests/Controller/DefaultControllerTest.php --filter=testIndexWithLogin
 
 
