@@ -21,7 +21,10 @@ Before writing your code to the project follow this :
     git checkout -b new-branch
 
 >   Write your code
->   Add test(s) of your new feature in test/
+
+>   Add test(s) of your new feature in /tests (the results will be shown in /build)
+
+
 >   Commit with small description of what you have done
    
 > Push the branch on your fork :
