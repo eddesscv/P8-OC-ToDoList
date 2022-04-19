@@ -12,7 +12,7 @@ Base du projet #8 : Améliorez un projet existant
 <a href="https://codeclimate.com/github/eddesscv/P8-OC-ToDoList/test_coverage"><img src="https://api.codeclimate.com/v1/badges/4857ec576b6574978d9a/test_coverage" /></a>
 
 ## Environnement de développement
-- Symfony 5.2.2
+- Symfony 5.4
 - Composer 2.2.5
 - PHPUnit 9.5.20
     - php-code-coverage 9.2.15
